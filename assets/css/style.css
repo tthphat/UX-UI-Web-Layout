@@ -1,0 +1,12 @@
+/* Header */
+.header{
+    background: var(--primary-color);
+}
+
+.header .header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* End Header */
+

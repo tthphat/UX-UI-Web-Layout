@@ -1,7 +1,23 @@
 *{
     box-sizing: border-box;
+
+    --primary-font: "Poppins", sans-serif;
+
+    --primary-color: #fffcf4;
+    --secondary-color: #171100;
+    --third-color: #2e2100;
+    --fourth-color: #ffb900;
+    --text-color: #5f5b53;
 }
 
+body{
+    font-family: var(--primary-font);
+}
 
-
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
