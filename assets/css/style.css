@@ -199,3 +199,21 @@
 
 /* End Header */
 
+/* Section one */
+.section-one{
+    padding: 100px 0;
+    background-color: white;
+}
+
+.section-one .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.section-one .top .title h1{
+
+}
+
+
+/* End Section one */
