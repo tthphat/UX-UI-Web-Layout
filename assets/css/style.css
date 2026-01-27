@@ -49,5 +49,102 @@
     color: var(--secondary-color);
 }
 
+.header .header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .header-content .main-content{
+    padding-left: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.header .header-content .main-content h1{
+    font-size: 60px;
+    font-weight: 600;    
+    color: black;
+    line-height: 1.17;
+}
+
+.header .header-content .main-content h3{
+    font-size: 20px;    
+    line-height: 1.67;
+}
+
+.header .header-content .main-content .header-cta{
+    display: flex;
+    gap: 30px;
+}
+
+.header .header-content .main-content .header-cta #btn-courses{
+    padding: 20px 50px;
+    background-color: var(--fourth-color);
+    font-size: 20px;
+    font-weight: 600;
+    border: 1px solid var(--fourth-color);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.header .header-content .main-content .header-cta #btn-courses:hover{
+    background-color: white;
+    color: var(--fourth-color);
+}
+
+.header .header-content .main-content .header-cta .btn-video-wrap{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.header .header-content .main-content .header-cta .btn-video-wrap #btn-video{
+    border: none;
+    border-radius: 50%;
+    box-shadow: 4px 6px 12px 0 rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.header .header-content .main-content .header-cta .btn-video-wrap #btn-video:hover img{
+    transition: all 0.2s ease;
+}
+
+.header .header-content .main-content .header-cta .btn-video-wrap #btn-video:hover img{
+    transform: scale(1.7);
+}
+
+.header .header-content .main-content .stats{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.header .header-content .main-content .stats .data{
+    display: flex;
+    gap: 50px;
+}
+
+.header .header-content .main-content .stats .data .items .value{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.header .header-content .main-content .stats .data .items .text{
+    font-size: 20px;
+}
+
 /* End Header */
 
