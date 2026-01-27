@@ -205,15 +205,101 @@
     background-color: white;
 }
 
+.section-one .inner-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
 .section-one .top{
     display: flex;
     justify-content: space-between;
     align-items: top;
 }
 
-.section-one .top .title h1{
-
+.section-one .top .title{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
+.section-one .top .title h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+.section-one .top .title h3{
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+.section-one .top .cta{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.section-one .top .cta button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--fourth-color);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.section-one .top .cta button:hover{
+    background-color: var(--fourth-color);
+    color: white;
+}
+
+.section-one .inner-wrap .thumbnails{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+}
+
+.section-one .inner-wrap .thumbnails .inner-box{
+    border: 1px solid #e2dfda;
+    border-radius: 8px;
+}
+
+.section-one .inner-wrap .thumbnails .inner-box a img{
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.section-one .inner-wrap .thumbnails .inner-box .content{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-one .inner-wrap .thumbnails .inner-box .content .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-one .inner-wrap .thumbnails .inner-box .content .title h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section-one .inner-wrap .thumbnails .inner-box .content .title .rate{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: var(--fourth-color);
+}
 
 /* End Section one */
