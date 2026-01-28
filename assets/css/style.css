@@ -319,3 +319,70 @@
 
 
 /* End Section one */
+
+/* Section two */
+.section-two{
+    background-color: var(--third-color);
+    padding: 80px 0;
+}
+
+.section-two .inner-wrap{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.section-two .inner-wrap .avatar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 300px;
+}
+
+.section-two .inner-wrap .avatar img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.section-two .inner-wrap .avatar .name{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-two .inner-wrap .avatar .name p:first-child{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.section-two .inner-wrap .avatar .dot-list {
+    display: flex;
+    gap: 10px;
+}
+
+.section-two .inner-wrap .avatar .dot-list .dot{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #634700;
+}
+
+.section-two .inner-wrap .avatar .dot-list .dot-active{
+    background-color: var(--fourth-color);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+}
+
+.section-two .inner-wrap .comment{
+    width: 800px;
+    font-size: 30px;
+    color: white;
+    font-style: italic;
+    line-height: 1.54;
+}
+
+/* End Section two */
